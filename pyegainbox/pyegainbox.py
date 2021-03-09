@@ -19,7 +19,7 @@ class pyEGAInbox:
             ssh_client.connect(hostname=host, username=username, pkey=pkey)
         self.sftp = ssh_client.open_sftp()
 
-    def get_host_key(self,host,port=22):
+    def get_host_key(self, host, port=22):
         """This function retrieves public key from remote EGA Inbox Server"""
         sock = socket.socket()
         sock.connect((host, port))

@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Using requirements.in with pip-compile
+# instead to generate requirements.txt
+requirements.txt
